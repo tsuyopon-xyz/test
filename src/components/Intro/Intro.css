@@ -1,0 +1,48 @@
+.intro {
+    background-color: rgb(247,227,225);
+    padding: 4%;
+}
+
+.intro-wrapper {
+    background-color: #fff;
+    padding: 4% 0;
+}
+
+.intro p {
+    text-align: center;
+    margin: 0;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.intro p span {
+    border-bottom: 1px solid #444
+}
+
+
+
+
+
+@media (min-width: 960px) {
+
+.intro p {
+    text-align: center;
+    margin: 0;
+    line-height: 1.8;
+    font-size: 14px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: left;
+    width: 84%;
+    line-height: 4;
+}
+
+.intro p span {
+    border-bottom: none;
+    background-color: rgb(202,151,144);
+    padding: 2%;
+    color: #fff;
+    font-size: 16px;
+}
+
+}

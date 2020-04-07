@@ -1,0 +1,75 @@
+/* .intro {
+    background-color: rgb(247,227,225);
+    padding:  4%;
+} */
+
+.top {
+    background: center/cover url(../../img/port-1.jpeg);
+    height: 540px;
+    position: relative;
+}
+
+.top-message {
+    writing-mode: vertical-rl; 
+}
+
+.one {
+    background-color: #fff;
+    height: 420px;
+    padding: 2% 0;
+    position: absolute;
+    top: 8%;
+    right: 4%;
+}
+.one h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.two {
+    background-color: #fff;
+    width: 80px;
+    margin: 0;
+    height: 540px;
+}
+.two h2 {
+    font-size: 48px;
+    padding: 8% 2% 0 2%;
+}
+
+
+
+
+
+@media (min-width: 960px) {
+
+.top {
+    height: 680px;
+}
+
+.one {
+    background-color: #fff;
+    height: 520px;
+    padding: 2% 0;
+    position: absolute;
+    top: 8%;
+    right: 4%;
+    
+}
+.one h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.two {
+    background-color: #fff;
+    width: 240px;
+    margin: 0;
+    height: 680px;
+}
+.two h2 {
+    font-size: 84px;
+    padding: 10% 18% 0 4%;
+}
+
+}

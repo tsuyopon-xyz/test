@@ -1,0 +1,180 @@
+nav {
+    overflow: auto;
+    width: 100%;
+    display: block;
+}
+ul {
+    background-color: rgb(202,151,144);
+    overflow: auto;
+    padding: 4%;
+    /* float: right; */
+    /* width: 100%; */
+    margin: 0;
+}
+li {
+    list-style: none;
+    float: left;
+    padding: 0 4%;
+    color: #fff;
+    
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+h1 {
+    clear: both;
+}
+
+.Header {
+    height: 50px;
+    padding: 0;
+    
+}
+
+.ResponsiveDrawer-root-1 {
+    height: 50px;
+  
+}
+
+header {
+   
+}
+
+.MuiPaper-root ul {
+    padding: 0;
+    margin: 15% 5%;
+}
+
+.MuiToolbar-root {
+    background-color: rgb(202,151,144);
+}
+
+.MuiToolbar-padding {
+    padding: 0;
+}
+
+.MuiList-padding {
+    padding: 0;
+}
+
+.MuiList-root {
+    background-color: #fff;
+    height: 100vh;
+    padding: 0;   
+}
+
+.MuiList-root a {
+    padding: 16% 8%;
+    margin: 4% 0;
+    text-align: center;
+    display: inline-block;
+    background-color:  rgb(247,227,225);
+}
+
+.MuiTypography-root {
+    /* text-align: center;
+    display: inline; */
+}
+
+.MuiListItemText-root {
+    width: 80%;
+    margin: 20% auto;
+    display: block;
+    border-bottom: 1px dashed #444;
+}
+
+.MuiTouchRipple-root {
+    display: none;
+}
+
+
+
+
+
+
+@media (min-width: 960px) {
+
+ul {
+    background-color: rgb(202,151,144);
+    overflow: auto;
+    padding: 4%;
+    /* float: right; */
+    /* width: 100%; */
+    margin: 0;
+}
+li {
+    list-style: none;
+    float: left;
+    /* padding: 0 4%; */
+    color: #fff;
+    
+}
+  
+.Header {
+    background-color: rgb(202,151,144);
+    width: 100%;
+    display: block;
+    /* padding: 2% 0; */
+}
+
+.Header li {
+    margin: 0 4%;
+    /* background-color: #fff;
+    padding: .5% 2%; */
+}
+
+.MuiList-root a {
+    /* padding: 16% 8%; */
+    /* margin: 4% 0; */
+    text-align: center;
+    display: inline-block;
+    background-color:  rgb(247,227,225);
+}
+
+.Header a {
+    /* color: rgb(202,151,144); */
+}
+
+.ResponsiveDrawer-content-7 {
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+
+.ResponsiveDrawer-content-7 li {
+    overflow: auto;
+    padding: 0;
+    margin: 0 2%;
+}
+
+
+header {
+    display: none;
+    margin: 0;
+}
+
+.MuiPaper-root ul {
+    padding: 0;
+    margin: 20% 8%;
+    width: 360px;
+}
+
+.PrivateHiddenCss-smDown-108 {
+    display: none;
+}
+
+.ResponsiveDrawer {
+    display: none;
+}
+
+.MuiToolbar-root {
+    display: none;
+}
+
+.ResponsiveDrawer-root-1 {
+    display: none;
+}
+
+    
+}

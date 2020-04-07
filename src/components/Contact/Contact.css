@@ -1,0 +1,71 @@
+.contact {
+    padding: 4%;
+}
+
+.contact h2 {
+    font-size: 42px;
+    margin: 2% 0 4%;
+    padding-left: 2%;
+    border-left: 2px solid rgb(123,51,65);
+}
+
+.contact-wrapper {
+    background: center/cover url(../../img/port-6.jpeg);
+    height: 600px;
+    object-fit: cover;
+    
+    position : relative;
+}
+
+.contact-content {
+    background-color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 80%;
+    padding: 8% 4% 4%;
+}
+
+.contact-text {
+   
+}
+
+.contact-text p {
+
+}
+
+.contact-wrapper a {
+    color: #111;
+}
+
+.contact-wrapper h3 {
+    color: #111;
+    background-color:  rgb(247,227,225);
+    padding: 2%;
+}
+
+
+
+
+
+
+@media (min-width: 960px) {
+.contact-content {
+    padding: 6%;
+    width: 40%;
+ }
+.contact-text p {
+    text-align: center;
+    letter-spacing: 2px;
+ }
+ .contact-content h3 {
+     display: inline;
+     text-align: center;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     width: 80%;
+ }
+}

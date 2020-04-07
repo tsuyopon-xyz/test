@@ -1,0 +1,97 @@
+.service {
+    padding: 4%;
+    background: center/cover url(../../img/port-5.jpg);
+}
+
+.service h2 {
+    font-size: 42px;
+    margin: 2% 0 4%;
+    padding-left: 2%;
+    border-left: 2px solid rgb(123,51,65);
+}
+
+.skill-set {
+    font-size: 16px;
+    /* padding: 4% 0; */
+    background-color: #fff;
+    padding: 2%;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 8%;
+}
+
+.service-wrapper {
+
+}
+
+.service-item {
+    background-color:  rgb(247,227,225);
+    margin: 4% 0;
+}
+
+.service-item i {
+    
+}
+
+.service-item .logo {
+    background-color: rgb(247,227,225);
+    margin: 2%;
+    padding: 4% 0 2%;
+}
+
+.service-item svg {
+    margin: 0 auto;
+    display: block;
+    padding: 2% 0 0;
+    font-size: 56px;
+}
+
+.service-text {
+    background-color:  #fff;
+    padding: 2% 2% 4%;
+}
+
+.service-text h3 {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 1px dotted #444;
+    margin: 2% 0 4%;
+}
+
+.service-text p {
+ 
+}
+
+
+
+
+
+@media (min-width: 960px) {
+
+.service-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-item {
+    width: calc(100%/3);
+    margin: 0 1%;
+    background-color: #fff;
+}
+
+.skill-set {
+    /* padding: 4% 0; */
+    background-color: #fff;
+    padding: 2%;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 4% 1% 2%;
+    text-align: center;
+}
+
+.service-text p {
+    text-align: center;
+}
+
+}

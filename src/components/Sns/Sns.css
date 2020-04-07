@@ -1,0 +1,23 @@
+.sns {
+    display: block;
+   
+}
+
+.sns ul {
+    
+    margin: 4% auto 0;
+    width: 80%;
+    padding: 2% 2% 6%;
+    display: flex;
+
+}
+
+.sns li {
+    padding: 0 6%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sns a {
+    display: inline-block;
+}

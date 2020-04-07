@@ -1,0 +1,34 @@
+.footer {
+    background-color: rgb(202,151,144);
+}
+
+.footer nav {
+    border-bottom: 1px solid #fff;
+    width: 90%;
+    margin: 2% auto 0;
+}
+
+/* .footer li {
+    
+} */
+
+
+
+
+
+@media (min-width: 560px) {
+.footer nav {
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin: 2% auto 0;
+}
+
+.footer ul {
+    padding: 4%;
+}
+
+.footer li {
+    margin: 0 4%;
+}
+    
+}
