@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.0410a52f.chunk.css",
+    "main.js": "/test/static/js/main.c6eda663.chunk.js",
+    "main.js.map": "/test/static/js/main.c6eda663.chunk.js.map",
+    "runtime-main.js": "/test/static/js/runtime-main.c7d7daa2.js",
+    "runtime-main.js.map": "/test/static/js/runtime-main.c7d7daa2.js.map",
+    "static/js/2.e940f2ff.chunk.js": "/test/static/js/2.e940f2ff.chunk.js",
+    "static/js/2.e940f2ff.chunk.js.map": "/test/static/js/2.e940f2ff.chunk.js.map",
+    "index.html": "/test/index.html",
+    "precache-manifest.ae820a7985d0e85d950ac5f9e2be1f91.js": "/test/precache-manifest.ae820a7985d0e85d950ac5f9e2be1f91.js",
+    "service-worker.js": "/test/service-worker.js",
+    "static/css/main.0410a52f.chunk.css.map": "/test/static/css/main.0410a52f.chunk.css.map",
+    "static/js/2.e940f2ff.chunk.js.LICENSE.txt": "/test/static/js/2.e940f2ff.chunk.js.LICENSE.txt",
+    "static/media/Top.css": "/test/static/media/port-1.1151dae4.jpeg",
+    "static/media/port-3.jpg": "/test/static/media/port-3.5826834b.jpg",
+    "static/media/port-4.jpeg": "/test/static/media/port-4.8a95fe0d.jpeg",
+    "static/media/Skill.css": "/test/static/media/port-5.21db1a54.jpg",
+    "static/media/Contact.css": "/test/static/media/port-6.064fb897.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7d7daa2.js",
+    "static/js/2.e940f2ff.chunk.js",
+    "static/css/main.0410a52f.chunk.css",
+    "static/js/main.c6eda663.chunk.js"
+  ]
+}
