@@ -61,20 +61,21 @@ const styles = theme => ({
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.warn,
-    // padding: theme.spacing.unit * 3,
-    // paddingTop: `calc(${headerNavigationHeight}px)`,
-    // paddingBottom: `calc(${bottomNavigationHeight}px)`,
-    // paddingLeft: 0,
-    // paddingRight: 0,
-    [theme.breakpoints.up('md')]: {
-      // paddingBottom: 10,
-    },
   },
 
   // ヘッダーロゴ
   headerLogo: {
     display: 'flex',
     height: 48,
+  },
+
+  '@media (min-width: 960px)': {
+    content: {
+      display: 'flex',
+      alignItems: 'center',
+      paddingLeft: '4%',
+      backgroundColor: 'black'
+    },
   },
 });
 
