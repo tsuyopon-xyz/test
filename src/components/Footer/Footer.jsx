@@ -3,7 +3,6 @@ import './Footer.css';
 import Sns from '../Sns/Sns';
 import {
     HashRouter as Router,
-    Route,
     Link
 } from "react-router-dom";
 //   import Top from '../Top/Top';

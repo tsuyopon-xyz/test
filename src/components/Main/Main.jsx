@@ -3,7 +3,6 @@ import './Main.css';
 import {
     HashRouter as Router,
     Route,
-    Link
   } from "react-router-dom";
   import Top from '../Top/Top';
   import About from '../About/About';

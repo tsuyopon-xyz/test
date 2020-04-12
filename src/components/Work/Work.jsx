@@ -15,7 +15,7 @@ function Work() {
 
          <div className="work-wrapper">
          <div className="work-history">
-          <a href="">
+          <a href="/">
            <h3>PORTFOLIO</h3>
            <img className="work-img" src={workSrc} alt="workSrc" />
           </a>

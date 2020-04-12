@@ -13,15 +13,13 @@ import Divider from '@material-ui/core/Divider';
 import MenuIcon from '@material-ui/icons/Menu';
 
 
-// Route関連
-import { Link } from 'react-router-dom';
 
 // コンポーネントの準備
 import ResponsiveDrawerListItem from '../components/ResponsiveDrawerListItem';
 
 // 設定値
 const drawerWidth = 240;
-const headerNavigationHeight = 50;
+
 const bottomNavigationHeight = 50;
 
 // スタイル
