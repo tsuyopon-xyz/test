@@ -100,6 +100,8 @@ class ResponsiveDrawer extends React.Component {
     // Material-ui関連
     const { classes, theme } = this.props;
 
+    console.log(classes, '@@@@@@@@@@@@@');
+
     const drawer = (
       <div>
         {/* <List>
