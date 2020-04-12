@@ -70,7 +70,7 @@ const styles = theme => ({
       // paddingBottom: 10,
     },
   },
-  
+
   // ヘッダーロゴ
   headerLogo: {
     display: 'flex',
@@ -93,13 +93,13 @@ class ResponsiveDrawer extends React.Component {
   openDrawerNav = () => {
     this.setState({ mobileOpen: true });
   }
-  
-  
+
+
   render() {
-    
+
     // Material-ui関連
     const { classes, theme } = this.props;
-    
+
     const drawer = (
       <div>
         {/* <List>
@@ -161,7 +161,7 @@ class ResponsiveDrawer extends React.Component {
             </IconButton>
           </Toolbar>
         </AppBar>
-        <Hidden mdUp>
+        {/* <Hidden mdUp>
           <Drawer
             variant="temporary"
             anchor={theme.direction === 'rtl' ? 'right' : 'left'}
@@ -176,18 +176,7 @@ class ResponsiveDrawer extends React.Component {
           >
             {drawer}
           </Drawer>
-        </Hidden>
-        <Hidden smDown implementation="css">
-          <Drawer
-            variant="permanent"
-            open
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-          >
-            {drawer}
-          </Drawer>
-        </Hidden>
+        </Hidden> */}
         <main className={classes.content}>
           {this.props.children}
         </main>
